@@ -103,74 +103,30 @@ The switch statement in the main method controls the program's flow based on the
 
 #### Methods for Deposit and Withdraw
 * **createNewAccount(Scanner scanner)**: This method prompts the user for an account name, creates a new `BankAccount` object with a unique account number (based on accountCount), and adds it to the `accounts` array. It also increments accountCount.
-* performTransaction(Scanner scanner, boolean isDeposit): Depending on the isDeposit flag, this method either deposits or withdraws money from a specified account. It asks the user for the account number and the amount, then performs the requested operation.
+* **performTransaction(Scanner scanner, boolean isDeposit)**: Depending on the isDeposit flag, this method either deposits or withdraws money from a specified account. It asks the user for the account number and the amount, then performs the requested operation.
 
 #### Testing the Array with Temporary Data
 The array accounts is used to store instances of the BankAccount class. In the main method, the program creates a new BankAccount and adds it to the accounts array when the user chooses to create a new account. This is a form of testing the array with temporary data, as it simulates the creation of new accounts in a real banking system.
 
-5. Important Features in the Code
-Static Inner Class: The BankAccount class is defined as a static inner class within CryptoBank. This is a way to encapsulate the BankAccount class within the CryptoBank class, making it clear that BankAccount is closely related to CryptoBank.
-Array Usage: The accounts array is used to store multiple BankAccount instances. This is a simple way to manage a collection of accounts in a single variable.
+#### 5. Important Features in the Code
+* **Static Inner Class**: The BankAccount class is defined as a static inner class within CryptoBank. This is a way to encapsulate the BankAccount class within the CryptoBank class, making it clear that BankAccount is closely related to CryptoBank.
+
+* **Array Usage**: The accounts array is used to store multiple BankAccount instances. This is a simple way to manage a collection of accounts in a single variable.
 User Input Handling: The program uses a Scanner to handle user input. This is a common way to get input from the user in a console-based Java program.
-Error Handling: The program includes checks to ensure that the user doesn't exceed the maximum number of accounts and that the user doesn't try to deposit or withdraw from a non-existent account.
-Encapsulation: The BankAccount class encapsulates the data and operations related to a bank account. This is a fundamental principle of object-oriented programming.
-Control Flow: The program uses control structures like if-else and switch statements to manage the flow of the program based on user input.
+
+* **Error Handling**: The program includes checks to ensure that the user doesn't exceed the maximum number of accounts and that the user doesn't try to deposit or withdraw from a non-existent account.
+
+* **Encapsulation**: The BankAccount class encapsulates the data and operations related to a bank account. This is a fundamental principle of object-oriented programming.
+
+* **Control Flow**: The program uses control structures like if-else and switch statements to manage the flow of the program based on user input.
 Modularity: The program is divided into methods, each responsible for a specific task. This makes the code easier to read, understand, and maintain.
-Static Fields: The MAX_ACCOUNTS field is declared as static, meaning it's shared by all instances of the CryptoBank class. This is used to limit the number of accounts that can be created.
-Error Messages: The program provides informative error messages when the user enters invalid input or when an operation can't be performed.
-Looping: The program uses a do-while loop to keep the menu running until the user chooses to exit. This ensures that the program doesn't terminate immediately after a single operation.
 
-#### Program Structure
+* **Static Fields**: The MAX_ACCOUNTS field is declared as static, meaning it's shared by all instances of the CryptoBank class. This is used to limit the number of accounts that can be created.
 
-* `Control Structures`: The `BankingProgram` class includes a do-while loop with a switch statement that allows users to make choices and perform different actions based on their input. This demonstrates the use of control structures to control the flow of the program.
+* **Error Messages**: The program provides informative error messages when the user enters invalid input or when an operation can't be performed.
 
-* `Methods`: All three classes (`Account`, `BankingProgram`, and `BankingSystem`) contain multiple methods that perform specific actions. For example, the `Account` class has methods like `deposit()`, `withdraw()`, `checkBalance()`, and `displayAccountDetails()`. The `BankingSystem` class has methods like `createAccount()`, `deposit()`, `withdraw()`, `checkBalance()`, and `displayAccountDetails()`. The `BankingProgram` class has the `main()` method. These methods encapsulate specific functionalities and promote code reusability.
+* **Looping**: The program uses a do-while loop to keep the menu running until the user chooses to exit. This ensures that the program doesn't terminate immediately after a single operation.
 
-* `Array`: The `BankingSystem` class includes an array called `accounts[]` to store instances of the `Account` class. The array is used to manage multiple accounts, such as creating new accounts, accessing specific accounts, and performing operations on them.
-
-# ✍️ Code Structure Explanation  
-
-#### 🌐 Banking System 🌐
-```
-`BankingSystem.java` <------- This Part :) 
-├── Account.java   
-└── BankingProgram.java   
-```
-The `BankingSystem` class manages the array of `Account` objects and provides methods to create accounts, deposit/withdraw money, check balances, and display account details.
-
-It includes the following methods: 
- 
-* `createAccount(int accountNumber, String accountHolderName, double balance)`: Creates a new account with the given account number, account holder name, and initial balance. The account is added to the `accounts` array.
-
-* `deposit(int accountNumber, double amount)`: Deposits the specified amount into the account with the given account number. If the account is found, the `deposit()` method of the `Account` class is called.
-
-* `withdraw(int accountNumber, double amount)`: Withdraws the specified amount from the account with the given account number. If the account is found, the `withdraw()` method of the `Account` class is called.
-
-* `checkBalance(int accountNumber)`: Checks and displays the balance of the account with the given account number. If the account is found, the checkBalance() method of the Account class is called.
-
-* `displayAccountDetails(int accountNumber)`: Displays the details of the account with the given account number. If the account is found, the displayAccountDetails() method of the Account class is called.
-
-* `findAccount(int accountNumber)`: Searches for an account with the given account number in the `accounts` array. Returns the account if found, or `null` if not found.
-
-#### 🕵️ Account 🕵️   
-
-```
-BankingSystem.java  
-├── Account.java   <------- This Part :) 
-└── BankingProgram.java  
-```
-
-// Need some documentation here //
-
-#### 💱 Banking Program 💱  
-
-```
-BankingSystem.java 
-├── Account.java     
-└── BankingProgram.java  <------- This Part :)
-```
-
-// Need some documentation here //
 
 # 🧊 Installation 
  
@@ -218,7 +174,7 @@ This project is licensed under the MIT License and Artificial Ledger Technology.
 
 
 # 📫 Changelogs     
-## [1.0.0] - 2024-03-02     
+## [1.4.10] - 2024-03-02     
 ### Added 
 - 📫 Uploaded the Project Requirements
 - 📫 Created the Project Documentation
