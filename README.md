@@ -54,43 +54,71 @@ Welcome to the Banking System! This system allows users to perform various banki
 - Check the current balance of an account.
 - Display detailed information about an account.
 
-### Tree Diagram Details 
+### Code Structure Tree
 
-Banking System
+CryptoBank
 ```bash
-├── Account 
-│   ├── AccountNumber
-│   ├── AccountHolderName 
-│   ├── Balance
-│   ├── createAccount() 
-│   ├── deposit()
-│   ├── withdraw()
-│   └── displayAccountDetails() 
-└── BankingProgram 
-    ├── accounts[]
-    ├── createAccount()
-    ├── deposit()
-    ├── withdraw()
-    ├── checkBalance()
-    └── displayAccountDetails()
+CryptoBank.java
+│
+├── main(String[] args)
+│   ├── Scanner for input
+│   └── Switch statement for menu options
+│
+├── createNewAccount(Scanner scanner)
+│   ├── Checks if maximum account limit is reached
+│   └── Creates a new BankAccount and adds it to the accounts array
+│
+├── performTransaction(Scanner scanner, boolean isDeposit)
+│   ├── Asks for account number and amount
+│   └── Performs deposit or withdrawal based on isDeposit flag
+│
+├── checkBalance(Scanner scanner)
+│   ├── Asks for account number
+│   └── Displays the balance of the specified account
+│
+└── BankAccount (Static Inner Class)
+    ├── Fields: accountName, accountNumber, balance
+    ├── Constructor: BankAccount(String accountName, int accountNumber)
+    ├── deposit(double amount)
+    ├── withdraw(double amount)
+    └── checkBalance()
 ```
 
 ### Tree Diagram Simple Structure
 ```bash
-BankingSystem 
-├── Account
-└── BankingProgram 
+CryptoBank (Workspace Folder in Eclipse or VS Code
+├── bin
+└── Package
+    ├── src
+        └── CryptoBank.java (java file class)
 ```
-#### Tree Diagram 
-```
-BankingSystem.java  
-├── Account.java  
-└── BankingProgram.java  
-```
+#### Switch Statement
+The switch statement in the main method controls the program's flow based on the user's menu choice. Each case corresponds to a different banking operation, calling the appropriate method:
 
-In this structure, BankingSystem is the parent class that contains an array of Account objects and methods to manage those accounts. Account is a separate class that represents a bank account and contains methods to perform operations on the account. BankingProgram is the main class that includes the main() method and handles user interaction.
+* Case 1: Calls createNewAccount to create a new account.
+* Case 2: Calls performTransaction with true to deposit money.
+* Case 3: Calls performTransaction with false to withdraw money.
+* Case 4: Calls checkBalance to display an account's balance.
+* Case 5: Exits the program.
 
-The BankingSystem class is the central component that connects the Account class and the BankingProgram class. It manages the accounts using the array and provides methods to perform operations on those accounts.
+#### Methods for Deposit and Withdraw
+* **createNewAccount(Scanner scanner)**: This method prompts the user for an account name, creates a new `BankAccount` object with a unique account number (based on accountCount), and adds it to the `accounts` array. It also increments accountCount.
+* performTransaction(Scanner scanner, boolean isDeposit): Depending on the isDeposit flag, this method either deposits or withdraws money from a specified account. It asks the user for the account number and the amount, then performs the requested operation.
+
+#### Testing the Array with Temporary Data
+The array accounts is used to store instances of the BankAccount class. In the main method, the program creates a new BankAccount and adds it to the accounts array when the user chooses to create a new account. This is a form of testing the array with temporary data, as it simulates the creation of new accounts in a real banking system.
+
+5. Important Features in the Code
+Static Inner Class: The BankAccount class is defined as a static inner class within CryptoBank. This is a way to encapsulate the BankAccount class within the CryptoBank class, making it clear that BankAccount is closely related to CryptoBank.
+Array Usage: The accounts array is used to store multiple BankAccount instances. This is a simple way to manage a collection of accounts in a single variable.
+User Input Handling: The program uses a Scanner to handle user input. This is a common way to get input from the user in a console-based Java program.
+Error Handling: The program includes checks to ensure that the user doesn't exceed the maximum number of accounts and that the user doesn't try to deposit or withdraw from a non-existent account.
+Encapsulation: The BankAccount class encapsulates the data and operations related to a bank account. This is a fundamental principle of object-oriented programming.
+Control Flow: The program uses control structures like if-else and switch statements to manage the flow of the program based on user input.
+Modularity: The program is divided into methods, each responsible for a specific task. This makes the code easier to read, understand, and maintain.
+Static Fields: The MAX_ACCOUNTS field is declared as static, meaning it's shared by all instances of the CryptoBank class. This is used to limit the number of accounts that can be created.
+Error Messages: The program provides informative error messages when the user enters invalid input or when an operation can't be performed.
+Looping: The program uses a do-while loop to keep the menu running until the user chooses to exit. This ensures that the program doesn't terminate immediately after a single operation.
 
 #### Program Structure
 
