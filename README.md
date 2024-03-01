@@ -2,7 +2,7 @@
 CCPRGG1L-COMP23P Group Project for 1st semester final exam project
     
 ### Group Name: Artificial Ledger 🇵🇭
-### Name: Jay Arre Talosig
+### Name: [Jay Arre Talosig](https://github.com/flexycode)
 ### Subject & Section: 🧚‍♂️ CCPRGG1L COM23P 🧚‍♀️  
 ### Professor: 👦 Jay D. Abaleta          
 
@@ -95,20 +95,21 @@ CryptoBank (Workspace Folder in Eclipse or VS Code
 #### Switch Statement
 The switch statement in the main method controls the program's flow based on the user's menu choice. Each case corresponds to a different banking operation, calling the appropriate method:
 
-* Case 1: Calls createNewAccount to create a new account.
-* Case 2: Calls performTransaction with true to deposit money.
-* Case 3: Calls performTransaction with false to withdraw money.
-* Case 4: Calls checkBalance to display an account's balance.
+* Case 1: Calls `createNewAccount` to create a new account.
+* Case 2: Calls `performTransaction` with `true` to deposit money.
+* Case 3: Calls `performTransaction` with `false` to withdraw money.
+* Case 4: Calls `checkBalance` to display an account's balance.
 * Case 5: Exits the program.
 
 #### Methods for Deposit and Withdraw
-* **createNewAccount(Scanner scanner)**: This method prompts the user for an account name, creates a new `BankAccount` object with a unique account number (based on accountCount), and adds it to the `accounts` array. It also increments accountCount.
-* **performTransaction(Scanner scanner, boolean isDeposit)**: Depending on the isDeposit flag, this method either deposits or withdraws money from a specified account. It asks the user for the account number and the amount, then performs the requested operation.
+* **createNewAccount(Scanner scanner)**: This method prompts the user for an account name, creates a new `BankAccount` object with a unique account number (based on `accountCount`), and adds it to the `accounts` array. It also increments `accountCount`.
+  
+* **performTransaction(Scanner scanner, boolean isDeposit)**: Depending on the `isDeposit` flag, this method either deposits or withdraws money from a specified account. It asks the user for the account number and the amount, then performs the requested operation.
 
 #### Testing the Array with Temporary Data
-The array accounts is used to store instances of the BankAccount class. In the main method, the program creates a new BankAccount and adds it to the accounts array when the user chooses to create a new account. This is a form of testing the array with temporary data, as it simulates the creation of new accounts in a real banking system.
+The array `accounts` is used to store instances of the `BankAccount` class. In the main method, the program creates a new BankAccount and adds it to the accounts array when the user chooses to create a new account. This is a form of testing the array with temporary data, as it simulates the creation of new accounts in a real banking system.
 
-#### 5. Important Features in the Code
+#### Important Features in the Code
 * **Static Inner Class**: The BankAccount class is defined as a static inner class within CryptoBank. This is a way to encapsulate the BankAccount class within the CryptoBank class, making it clear that BankAccount is closely related to CryptoBank.
 
 * **Array Usage**: The accounts array is used to store multiple BankAccount instances. This is a simple way to manage a collection of accounts in a single variable.
@@ -160,6 +161,15 @@ If you would like to contribute to the Banking System, please follow these steps
 3. Make your changes and commit them.
 4. Push to your fork and submit a pull request.
 
+### 👋 Contributors
+### Special thanks to all my groupmates: 
+ * ####  😎 [Jay Arre Talosig](https://github.com/flexycode)
+ * ####  😃 [Gabriel Angelo Viñas](https://github.com/IYB-Mata) 
+ * ####  🥰 [Anilove Tiquio](https://github.com/tiquioani) 
+ * ####  🤗 [Kristine Vine Navarro](https://github.com/Kristine2811) 
+ * ####  😌 [Joshua Maquilan](https://github.com/Primorion) 
+ * ####  😋 [Vince Erol Pangilinan](https://github.com/vinceeee4)
+   
 ### 🛸 Reporting Issues
 
 ###### 🤖 If you encounter any issues or have suggestions, please open an issue to let us know.
