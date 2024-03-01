@@ -136,7 +136,7 @@ Modularity: The program is divided into methods, each responsible for a specific
 3. Build the project to compile the source code.
 
 ### Usage ✍️
-1. Run the `BankingProgram` class to start the program.  
+1. Run the `CryptoBank` class to start the program.  
 2. Follow the on-screen menu options to perform various banking activities.
 3. Enter the required information when prompted, such as account numbers, account holder names, deposit/withdrawal amounts, etc.
 4. View the program's output to see the results of each operation.
@@ -150,8 +150,6 @@ If you would like to contribute to the Banking System, please follow these steps
 3. Make your changes and commit them.
 4. Push your changes to your forked repository.
 5. Submit a pull request to the main repository.
-6. REMINDER DON'T COMMIT IN THE MAIN BRANCH!!!~ just pull request only and we will review it first.
-
 
 ### 🧠 Submitting Changes
 
