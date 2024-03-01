@@ -110,23 +110,25 @@ The switch statement in the main method controls the program's flow based on the
 The array `accounts` is used to store instances of the `BankAccount` class. In the main method, the program creates a new BankAccount and adds it to the accounts array when the user chooses to create a new account. This is a form of testing the array with temporary data, as it simulates the creation of new accounts in a real banking system.
 
 #### Important Features in the Code
-* **Static Inner Class**: The BankAccount class is defined as a static inner class within CryptoBank. This is a way to encapsulate the BankAccount class within the CryptoBank class, making it clear that BankAccount is closely related to CryptoBank.
+* **Static Inner Class**: The `BankAccount` class is defined as a static inner class within `CryptoBank`. This is a way to encapsulate the `BankAccount` class within the CryptoBank class, making it clear that BankAccount is closely related to CryptoBank.
 
-* **Array Usage**: The accounts array is used to store multiple BankAccount instances. This is a simple way to manage a collection of accounts in a single variable.
-User Input Handling: The program uses a Scanner to handle user input. This is a common way to get input from the user in a console-based Java program.
+* **Array Usage**: The `accounts` array is used to store multiple `BankAccount` instances. This is a simple way to manage a collection of accounts in a single variable.
+  
+* **User Input Handling**: The program uses a `Scanner` to handle user input. This is a common way to get input from the user in a console-based Java program.
 
 * **Error Handling**: The program includes checks to ensure that the user doesn't exceed the maximum number of accounts and that the user doesn't try to deposit or withdraw from a non-existent account.
 
-* **Encapsulation**: The BankAccount class encapsulates the data and operations related to a bank account. This is a fundamental principle of object-oriented programming.
+* **Encapsulation**: The `BankAccount` class encapsulates the data and operations related to a bank account. This is a fundamental principle of object-oriented programming.
 
-* **Control Flow**: The program uses control structures like if-else and switch statements to manage the flow of the program based on user input.
-Modularity: The program is divided into methods, each responsible for a specific task. This makes the code easier to read, understand, and maintain.
+* **Control Flow**: The program uses control structures like `if-else` and `switch` statements to manage the flow of the program based on user input.
 
-* **Static Fields**: The MAX_ACCOUNTS field is declared as static, meaning it's shared by all instances of the CryptoBank class. This is used to limit the number of accounts that can be created.
+* **Modularity**: The program is divided into methods, each responsible for a specific task. This makes the code easier to read, understand, and maintain.
+
+* **Static Fields**: The `MAX_ACCOUNTS` field is declared as `static`, meaning it's shared by all instances of the `CryptoBank` class. This is used to limit the number of accounts that can be created.
 
 * **Error Messages**: The program provides informative error messages when the user enters invalid input or when an operation can't be performed.
 
-* **Looping**: The program uses a do-while loop to keep the menu running until the user chooses to exit. This ensures that the program doesn't terminate immediately after a single operation.
+* **Looping**: The program uses a `do-while` loop to keep the menu running until the user chooses to exit. This ensures that the program doesn't terminate immediately after a single operation.
 
 
 # 🧊 Installation 
