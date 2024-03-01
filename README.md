@@ -6,7 +6,16 @@ CCPRGG1L-COMP23P Group Project for 1st semester final exam project
 ### Subject & Section: 🧚‍♂️ CCPRGG1L COM23P 🧚‍♀️  
 ### Professor: 👦 Jay D. Abaleta          
 
-# 📊 Table of Contents 
+# 📊 Table of Contents
+
+## Table of Contents
+- [Introduction](#introduction)
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+
 
 ## [Introduction](#introduction)
 This repository contains source code for a Java project that focuses on fundamental concepts and exercises. The code includes examples of input/output operations, arithmetic calculations, and basic Java syntax.
@@ -35,14 +44,6 @@ This repository contains source code for a Java project that focuses on fundamen
 | Part 12 - Learn built-in mathematical function in the Java Math Class Library | Arrays and Array list                                             |
 
 # Banking System
-
-## Table of Contents
-- [Introduction](#introduction)
-- [Features](#features)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Introduction
 Welcome to the Banking System! This system allows users to perform various banking activities such as creating accounts, depositing/withdrawing money, checking balances, and displaying account details. A banking program in Java, that the users can do the following banking activities like creating accounts, depositing/withdrawing money, checking balance, and displaying account details.
