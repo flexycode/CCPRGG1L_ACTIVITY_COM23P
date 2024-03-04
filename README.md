@@ -57,7 +57,26 @@ Welcome to the Banking System! This system allows users to perform various banki
 
 ### Code Structure Tree
 
-CryptoBank
+New Version of CryptoBank diagram tree 
+```bash
+CryptoBank.java
+├── main(String[] args)
+│   ├── Scanner for input
+│   └── Switch statement for menu options
+├── createNewAccount(Scanner scanner)
+│   ├── Checks if maximum account limit is reached
+│   └── Creates a new account and adds it to the account arrays
+├── performTransaction(Scanner scanner, boolean isDeposit)
+│   ├── Asks for account number and amount
+│   └── Performs deposit or withdrawal based on isDeposit flag
+└── checkBalance(Scanner scanner)
+    ├── Asks for account number
+    └── Displays the balance of the specified account
+```
+
+### Previous Version 
+
+CryptoBank diagram tree
 ```bash
 CryptoBank.java
 │
