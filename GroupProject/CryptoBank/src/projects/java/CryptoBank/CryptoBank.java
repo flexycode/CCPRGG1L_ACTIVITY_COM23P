@@ -121,9 +121,4 @@ public class CryptoBank {
             return accountNumber;
         }
 
-        // New method to get the account name
-        public String getAccountName() {
-            return accountName;
-        }
-    }
-}
+        finish code
