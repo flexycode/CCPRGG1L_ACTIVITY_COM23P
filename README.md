@@ -2,7 +2,7 @@
 CCPRGG1L-COMP23P Group Project for 1st semester final exam project
     
 ### Group Name: Artificial Ledger 🇵🇭
-### Name: [Jay Arre Talosig](https://github.com/flexycode)
+### Name: [Gabriel Angelo Viñas](https://github.com/IYB-Mata)
 ### Subject & Section: 🧚‍♂️ CCPRGG1L COM23P 🧚‍♀️  
 ### Professor: 👦 Jay D. Abaleta          
 
