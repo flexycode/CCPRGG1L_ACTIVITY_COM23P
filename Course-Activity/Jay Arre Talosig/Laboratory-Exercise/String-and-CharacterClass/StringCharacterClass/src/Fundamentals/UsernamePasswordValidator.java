@@ -30,7 +30,7 @@ public class UsernamePasswordValidator {
                 trialCount++;
 
                 if (trialCount == maxTrials) {
-                    System.out.println("You have entered incorrect password 3 times. Your account is locked.");
+                    System.out.println("You have entered incorrect password 3 times. Your account is terminated.");
                     Toolkit.getDefaultToolkit().beep();
                 }
             }
