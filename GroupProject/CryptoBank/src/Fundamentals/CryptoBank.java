@@ -3,14 +3,17 @@ package Fundamentals;
 import java.util.Scanner;
 
 public class CryptoBank {
+
     private static final int MAX_ACCOUNTS = 10;
     private static String[] accountNames = new String[MAX_ACCOUNTS];
     private static int[] accountNumbers = new int[MAX_ACCOUNTS];
     private static double[] balances = new double[MAX_ACCOUNTS];
-    private static int accountCount = 0;
+    private static int accountCount = 1;
 
     public static void main(String[] args) {
+
         Scanner scanner = new Scanner(System.in);
+
         int choice;
 
         System.out.println("Welcome to ALT Crypto Bank!");
@@ -58,12 +61,11 @@ public class CryptoBank {
         String accountName = scanner.next();
 
         accountNames[accountCount] = accountName;
-        accountNumbers[accountCount] = accountCount;
+        accountNumbers[accountCount] = accountCount - 1; // Assign the current accountCount - 1 as the account number
         balances[accountCount] = 0.0;
         accountCount++;
 
-        System.out.println("Account created successfully. Your account number is: " + accountCount);
-        accountCount++; 
+        System.out.println("Account created successfully. Your account number is: " + (accountCount - 1));
     }
 
     private static void performTransaction(Scanner scanner, boolean isDeposit) {
@@ -103,3 +105,4 @@ public class CryptoBank {
         System.out.println("Account Name: " + accountNames[accountNumber] + " - Current Balance: " + balances[accountNumber]);
     }
 }
+
