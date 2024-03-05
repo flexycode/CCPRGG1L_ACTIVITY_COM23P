@@ -63,6 +63,7 @@ public class CryptoBank {
         accountCount++;
 
         System.out.println("Account created successfully. Your account number is: " + accountCount);
+        accountCount++; 
     }
 
     private static void performTransaction(Scanner scanner, boolean isDeposit) {
