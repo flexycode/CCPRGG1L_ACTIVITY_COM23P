@@ -210,6 +210,7 @@ This project is licensed under the MIT License and Artificial Ledger Technology.
 - 📫 Created the Project Documentation
 - 📫 Added breakdown and documentation
 - 📫 Added a function for default Bank Account profile. 
+- 📫 Added Final revision for CryptoBank.
 
 ### Changed
 - 📫 Revised all java source code file
