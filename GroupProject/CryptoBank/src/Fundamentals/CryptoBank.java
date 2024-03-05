@@ -104,6 +104,19 @@ public class CryptoBank {
 }
 
 // changes for the code
+System.out.print("Enter Account Name: ");
+String accountName = scanner.next();
+
+    accountNames[accountCount] = accountName;
+    accountNumbers[accountCount] = accountCount;
+    balances[accountCount] = 0.0;
+
+System.out.println("Account created successfully. Your account number is: " + accountCount);
+accountCount++; // By moving the incrementation syntax after the display will now align with array indices, starting from 0.
+}
+
+// 2nd changes //
+
 private static void checkBalance(Scanner scanner) {
     System.out.print("Enter Account Number: ");
     int accountNumber = scanner.nextInt();
