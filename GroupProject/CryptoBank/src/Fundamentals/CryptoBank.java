@@ -105,4 +105,3 @@ public class CryptoBank {
         System.out.println("Account Name: " + accountNames[accountNumber] + " - Current Balance: " + balances[accountNumber]);
     }
 }
-
