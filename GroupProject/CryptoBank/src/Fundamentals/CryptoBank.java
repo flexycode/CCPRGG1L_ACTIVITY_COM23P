@@ -102,3 +102,17 @@ public class CryptoBank {
         System.out.println("Account Name: " + accountNames[accountNumber] + " - Current Balance: " + balances[accountNumber]);
     }
 }
+
+// changes for the code
+private static void checkBalance(Scanner scanner) {
+    System.out.print("Enter Account Number: ");
+    int accountNumber = scanner.nextInt();
+
+    if (accountNumber < 0 || accountNumber >= accountCount) {
+        System.out.println("Invalid account number.");
+        return;
+    }
+
+    System.out.println("Account Name: " + accountNames[accountNumber] + " - Current Balance: " + balances[accountNumber]);
+}
+}
