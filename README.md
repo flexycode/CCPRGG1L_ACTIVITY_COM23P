@@ -74,7 +74,7 @@ CryptoBank.java
     └── Displays the balance of the specified account
 ```
 
-### Previous Version 
+### Previous Version when I used Encapsulation
 
 CryptoBank diagram tree
 ```bash
