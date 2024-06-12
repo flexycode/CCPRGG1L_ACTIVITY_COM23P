@@ -27,7 +27,7 @@ This repository contains source code for a Java project that focuses on fundamen
   
 ### CCPRGG1L Table lecture
 
-| Topic                                                                  | Description                                                      |
+| Topic                                                                  | Description                                                      | 
 | :--------------------------------------------------------------------- | :--------------------------------------------------------------- |
 | Part 1 - Introduce Basic Programming                                    | Introduction to Basic programming Variables and Type             |
 | Part 2 - Java Programming                                               | Problem-solving phases                                           |
@@ -84,7 +84,7 @@ CryptoBank.java
 │   ├── Scanner for input
 │   └── Switch statement for menu options
 │
-├── createNewAccount(Scanner scanner)
+├── createNewAccount(Scanner scanner) 
 │   ├── Checks if maximum account limit is reached
 │   └── Creates a new BankAccount and adds it to the accounts array
 │
@@ -151,7 +151,7 @@ The array `accounts` is used to store instances of the `BankAccount` class. In t
 * **Looping**: The program uses a `do-while` loop to keep the menu running until the user chooses to exit. This ensures that the program doesn't terminate immediately after a single operation.
 
 
-# 🧊 Installation 
+# 🧊 Installation  
  
 ### Installation ✍️      
 1. Clone the repository to your local machine.
@@ -201,7 +201,6 @@ If you would like to contribute to the Banking System, please follow these steps
 ## License
 The Banking System is licensed under the [MIT License](https://opensource.org/licenses/MIT) and [ALT Licence](https://github.com/flexycode/BankingSystem/blob/main/LICENSE).
 This project is licensed under the MIT License and Artificial Ledger Technology.
-
 
 # 📫 Changelogs     
 ## [1.4.10] - 2024-03-02     
