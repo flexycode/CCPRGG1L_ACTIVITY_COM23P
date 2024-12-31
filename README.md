@@ -1,10 +1,10 @@
 # 💫 CCPRGG1L_FINALPROJECT_COM23P 
-[CCPRGG1L-COMP23P Group Project for 1st semester final exam project](https://www.youtube.com/watch?v=Ts9kBO6Nr_s)
-    
 ### Group Name: [Artificial Ledger](https://www.youtube.com/watch?v=dQw4w9WgXcQ)  🇵🇭
 ### Name: [Jay Arre Talosig](https://github.com/flexycode) 
 ### Subject & Section: 🧚‍♂️ [CCPRGG1L COM23P](https://www.youtube.com/watch?v=dQw4w9WgXcQ) 🧚‍♀️  
-### Professor: 👦 [Jay D. Abaleta](https://www.youtube.com/watch?v=Zi_XLOBDo_Y)           
+### Professor: 👦 [Jay D. Abaleta](https://www.youtube.com/watch?v=Zi_XLOBDo_Y)        
+
+[CCPRGG1L-COMP23P Group Project for 1st semester final exam project](https://www.youtube.com/watch?v=Ts9kBO6Nr_s)
 
 # 📊 Table of Contents
 
@@ -27,21 +27,21 @@ This repository contains source code for a Java project that focuses on fundamen
   
 ### CCPRGG1L Table lecture
 
-| Topic                                                                  | Description                                                      | 
-| :--------------------------------------------------------------------- | :--------------------------------------------------------------- |
-| Part 1 - Introduce Basic Programming                                    | Introduction to Basic programming Variables and Type             |
-| Part 2 - Java Programming                                               | Problem-solving phases                                           |
-| Part 3a - Understand the basic concepts of Object-Oriented Programming (OOP) | Compare Procedural and OOP                                |
-| Part 3b - Learn how to declare and use classes and objects in Java      | Introduction to objects and classes                              |
-| Part 4 - Learn how to implement user-defined methods                    | Primitive types and String Class, Basic Operators (Arithmetic, Relational, and Logical) |
-| Part 5 - Identify the types of variables and its scope                  | Class Methods, Variables Scoping                                 |
-| Part 6 - Sequential, conditional, and iteration structure               | Sequential Structure                                             |
-| Part 7 - Learn the difference between sequential, conditional, and iteration structure | Conditional Structure                                |
-| Part 8 - Learn how to use various conditional structures                | Sequential vs Conditional Structure                              |
-| Part 9 - Learn the difference between sequential, conditional, and iteration structure | Sequential vs Conditional Structure                              |
-| Part 10 - Learn how to use various iteration structures                 | Sequential vs Conditional Structure                              |
-| Part 11 - Learn built-in mathematical function in the Java Math Class Library | String and char operations                                |
-| Part 12 - Learn built-in mathematical function in the Java Math Class Library | Arrays and Array list                                             |
+| Topic                                                                  | Description                                                      |
+|-----------------------------------------------------------------------|-----------------------------------------------------------------|
+| Part 1 - Introduce Basic Programming                                   | Introduction to basic programming concepts, variables, and types. |
+| Part 2 - Java Programming                                              | Overview of problem-solving phases in programming.              |
+| Part 3a - Understand the Basic Concepts of Object-Oriented Programming (OOP) | Comparison of procedural programming and OOP principles.         |
+| Part 3b - Learn How to Declare and Use Classes and Objects in Java     | Introduction to classes and objects in Java.                    |
+| Part 4 - Learn How to Implement User-Defined Methods                   | Overview of primitive types, the String class, and basic operators (arithmetic, relational, and logical). |
+| Part 5 - Identify the Types of Variables and Their Scope               | Understanding class methods and variable scoping.               |
+| Part 6 - Sequential, Conditional, and Iteration Structures             | Introduction to sequential structures in programming.           |
+| Part 7 - Learn the Difference Between Sequential, Conditional, and Iteration Structures | Overview of conditional structures in programming.              |
+| Part 8 - Learn How to Use Various Conditional Structures               | Practical applications of different conditional structures.     |
+| Part 9 - Learn the Difference Between Sequential, Conditional, and Iteration Structures | Overview of iteration structures in programming.                |
+| Part 10 - Learn How to Use Various Iteration Structures                | Practical applications of different iteration structures.       |
+| Part 11 - Learn Built-in Mathematical Functions in the Java Math Class Library | Overview of string and character operations.                     |
+| Part 12 - Learn About Arrays and Array Lists in Java                  | Introduction to arrays and array lists in Java.                |
 
 # Banking System
 
